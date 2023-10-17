@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background: #f5f7fb;
+  background-image: url("./images/blob1.png");
+}
+
+.clr {
+  color: red;
+  background: black;
+}
+
+.starter {
+  color: #293264;
+
+  font-family: Karla;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.start-btn {
+  border-radius: 15px;
+  background: #4d5b9e;
+  color: #f5f7fb;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 52px;
+  width: 139px;
+}
+
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+}
+
+.starter-background {
+  background-image: url("/blob1.png");
+}
+
+.questions {
+  color: #293264;
+  font-family: Karla;
+}
+
+.answer-btn {
+  border-radius: 7.942px;
+  background: #f5f7fb;
+  padding: 5px 20px;
+}
+
+button {
+  padding: 4px 8px;
+  margin: 0 4px 3px 0;
+  border: 0.771px solid #4d5b9e;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #f5f7fb;
+}
+
+.questions-section {
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+hr {
+  margin-top: 15px;
+  background: #dbdef0;
+  color: #dbdef0;
+  height: 0.794px;
+}
+
+.checkanswer-btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  padding: 15px;
+}
+
+.newgame-section {
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+  color: #293264;
+  text-align: center;
+  font-family: Inter;
+  font-weight: bold;
+}
+
+.result-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  padding: 10px 20px;
+}
+
+.correctans-btn {
+  color: #293264;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18vw;
+  z-index: -1;
+}
+
+.img-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 18vw;
+  z-index: -1;
+}
+
+.img-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 18vw;
+  z-index: -1;
+}
