@@ -1,5 +1,5 @@
 This is the solo project of the Scrimba Frontend Career Path Course. It involved the utilization of HTML, CSS, JavaScript, and React to develop a quiz application.
-Link for the app:  https://2m4hfc.csb.app
+Demo:  https://2m4hfc.csb.app
 
 
 ![Ekran Resmi 2023-10-17 17 00 16](https://github.com/serdarsarbak/quizzical-scrimba/assets/101435751/3d367e63-c679-49b1-983e-3cc2040666da)
